@@ -91,7 +91,7 @@ todo-backend:v1
 ```
 
 Step 5: Create docker image for frontend
-```bash
+```bash2
 cd frontend
 docker build -t todo-frontend:v1 .
 ```
