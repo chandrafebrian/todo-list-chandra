@@ -8,7 +8,7 @@
         ></v-img>
       </template>
 
-      <v-toolbar-title>Todo App Chandra</v-toolbar-title>
+      <v-toolbar-title>*Todo App Chandra*</v-toolbar-title>
     </v-app-bar>
 
     <v-main>
