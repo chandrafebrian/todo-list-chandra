@@ -23,6 +23,6 @@ services:
         depends_on:
             - todo-postgres
     todo-frontend:
-        image: chandraf80/todo-frontend:v3
+        image: chandraf80/todo-frontend:v3.0.1
         ports:
             - 8081:8080
