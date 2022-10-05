@@ -9,6 +9,7 @@ services:
             - POSTGRES_PASSWORD=rahasia
             - POSTGRES_DB=belajar
         volumes:
+            # - ./custom/mount:/var/lib/postgresql/data
             - ./postgres/init.sql:/docker-entrypoint-initdb.d/init.sql
     todo-backend:
         image: chandraf80/todo-backend:v1
