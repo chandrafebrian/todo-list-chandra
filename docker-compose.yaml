@@ -5,25 +5,25 @@ services:
         ports:
             - 5432:5432
         environment:
-            - POSTGRES_USER=postgres
-            - POSTGRES_PASSWORD=rahasia
-            - POSTGRES_DB=belajar
+            - POSTGRES_USER=chandra
+            - POSTGRES_PASSWORD=pintu
+            - POSTGRES_DB=project
         volumes:
 
             - ./postgres/init.sql:/docker-entrypoint-initdb.d/init.sql
     todo-backend:
-        image: chandraf80/todo-backend:v1
+        image: chandraf80/pintu-backend:v1.0
         ports:
             - 8080:8080
         environment:
-            - DB_USER=postgres
-            - DB_PASSWORD=rahasia
+            - DB_USER=chandra
+            - DB_PASSWORD=pintu
             - DB_HOST=todo-postgres
             - DB_PORT=5432
-            - DB_DATABASE=belajar
+            - DB_DATABASE=project
         depends_on:
             - todo-postgres
     todo-frontend:
-        image: chandraf80/todo-frontend:v3.0.1
+        image: chandraf80/pintu-frontend:v1.0
         ports:
-            - 8081:8081
+            - 8081:8080

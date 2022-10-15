@@ -8,17 +8,17 @@ func (s *Static) GetAll() ([]schema.Todo, error) {
 	todoList := []schema.Todo{
 		{
 			ID:   1,
-			Note: "Beli mie instan",
+			Note: "a",
 			Done: false,
 		},
 		{
 			ID:   2,
-			Note: "Isi pulsa",
+			Note: "b",
 			Done: true,
 		},
 		{
 			ID:   3,
-			Note: "Ambil uang di atm",
+			Note: "c",
 			Done: false,
 		},
 	}
