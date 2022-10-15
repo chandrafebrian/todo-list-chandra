@@ -5,8 +5,8 @@ import (
 	"log"
 	"net/http"
 
-	"github.com/girikuncoro/belajar-docker-pemula/backend/db"
-	"github.com/girikuncoro/belajar-docker-pemula/backend/handler"
+	"github.com/chandrafebrian/todo-list-chandra/tree/todo-master/backend/db"
+	"github.com/chandrafebrian/todo-list-chandra/tree/todo-master/backend/handler"
 	_ "github.com/lib/pq"
 )
 

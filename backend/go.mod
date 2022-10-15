@@ -1,4 +1,4 @@
-module github.com/girikuncoro/belajar-docker-pemula/backend
+module github.com/chandrafebrian/todo-list-chandra/tree/todo-master/backend
 
 go 1.15
 

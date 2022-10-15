@@ -3,8 +3,8 @@ package service
 import (
 	"context"
 
-	"github.com/girikuncoro/belajar-docker-pemula/backend/db"
-	"github.com/girikuncoro/belajar-docker-pemula/backend/schema"
+	"github.com/chandrafebrian/todo-list-chandra/tree/todo-master/backend/db"
+	"github.com/chandrafebrian/todo-list-chandra/tree/todo-master/backend/schema"
 )
 
 func GetAll(ctx context.Context) ([]schema.Todo, error) {

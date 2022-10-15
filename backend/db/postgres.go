@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/girikuncoro/belajar-docker-pemula/backend/schema"
+	"github.com/chandrafebrian/todo-list-chandra/tree/todo-master/backend/schema"
 )
 
 type Postgres struct {
