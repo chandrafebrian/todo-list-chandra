@@ -1,4 +1,4 @@
-# Docker | chandrafebrian99@gmail.com - Making TODO App
+# Pintu | Making TODO App
 
 This TODO app is a sample app to demonstrate the process of creating an app with Docker, consisting of:
 - Frontend with [Vue JS framework]
