@@ -1,6 +1,6 @@
 <template>
   <v-app id="inspire">
-    <v-app-bar app color="primary" dark src="mountains.png" prominent>
+    <v-app-bar app color="primary" dark src="pintu.png" prominent>
       <template v-slot:img="{ props }">
         <v-img
           v-bind="props"
@@ -8,7 +8,7 @@
         ></v-img>
       </template>
 
-      <v-toolbar-title>*Todo App Chandra*</v-toolbar-title>
+      <v-toolbar-title>*Pintu-Todo-app-Chandra*</v-toolbar-title>
     </v-app-bar>
 
     <v-main>
