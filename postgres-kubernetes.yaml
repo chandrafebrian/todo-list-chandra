@@ -1,0 +1,20 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: postgres
+spec:
+  selector:
+    matchLabels:
+      app: postgres-alpine
+  replicas: 2 # tells deployment to run 2 pods matching the template
+  template:
+    metadata:
+      labels:
+        app: postgres-alpine
+    spec:
+      containers:
+        - name: postgres-pod
+          image: postgres:9.3-alpine
+          ports:
+            - containerPort: 5432
+
